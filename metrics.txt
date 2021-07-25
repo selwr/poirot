@@ -1,0 +1,358 @@
+~ METRICS ~
+
+=======================================================================
+
+    No. of:
+        - articles                              = 823 [+19]
+        - topics                                = 601 [+18]
+        - pages                                 = 17219 [+341]
+        - subjects                              = 13
+
+    Articles per topic                          = 1.37 [-0.01]
+    Articles per subject                        = 63.31 [+1.46]
+
+    Topics per subject                          = 46.23 [+1.38]
+
+    Pages per article                           = 20.92 [-0.07]
+    Pages per topic                             = 28.65 [-0.3]
+    Pages per subject                           = 1324.54 [+26.23]
+
+    Overall satisfaction of non-preprints       = 91.0 %
+
+    Average article colour                      = #43653e
+    Average topic colour                        = #4415be
+    Average page colour                         = #474188
+
+
+    Last updated on 22/09/2020 at 19:00:34
+
+
+=======================================================================
+
+
+    :: Astrophysics ::
+    ==================
+
+    No. of:
+        - articles                              = 188 [+6]
+        - topics                                = 154 [+5]
+        - pages                                 = 2546 [+77]
+
+    Percentage share of:
+        - articles                              = 22.84 % [+0.2]
+        - topics                                = 25.62 % [+0.06]
+        - pages                                 = 14.79 % [+0.16]
+
+    Articles per topic                          = 1.22
+    Pages per article                           = 13.54 [-0.03]
+    Pages per topic                             = 16.53 [-0.04]
+
+    Satisfaction of non-preprints               = 93.6 % [+0.2]
+
+    Colour = #000133, Very Dark Blue (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Atomic ::
+    ============
+
+    No. of:
+        - articles                              = 32
+        - topics                                = 23
+        - pages                                 = 332
+
+    Percentage share of:
+        - articles                              = 3.89 % [-0.09]
+        - topics                                = 3.83 % [-0.12]
+        - pages                                 = 1.93 % [-0.04]
+
+    Articles per topic                          = 1.39
+    Pages per article                           = 10.38
+    Pages per topic                             = 14.43
+
+    Satisfaction of non-preprints               = 93.8 %
+
+    Colour = #388004, Dark Grass Green (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Black Holes ::
+    =================
+
+    No. of:
+        - articles                              = 111 [+4]
+        - topics                                = 79 [+4]
+        - pages                                 = 2738 [+115]
+
+    Percentage share of:
+        - articles                              = 13.49 % [+0.18]
+        - topics                                = 13.14 % [+0.28]
+        - pages                                 = 15.9 % [+0.36]
+
+    Articles per topic                          = 1.41 [-0.02]
+    Pages per article                           = 24.67 [+0.16]
+    Pages per topic                             = 34.66 [-0.31]
+
+    Satisfaction of non-preprints               = 94.6 % [-1.7]
+
+    Colour = #000000, Black (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Computing ::
+    ===============
+
+    No. of:
+        - articles                              = 23 [+2]
+        - topics                                = 15 [+2]
+        - pages                                 = 1495 [+32]
+
+    Percentage share of:
+        - articles                              = 2.79 % [+0.18]
+        - topics                                = 2.5 % [+0.27]
+        - pages                                 = 8.68 % [+0.01]
+
+    Articles per topic                          = 1.53 [-0.09]
+    Pages per article                           = 65.0 [-4.67]
+    Pages per topic                             = 99.67 [-12.87]
+
+    Satisfaction of non-preprints               = 95.7 % [+0.5]
+
+    Colour = #06470c, Forest Green (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Cosmology ::
+    ===============
+
+    No. of:
+        - articles                              = 199 [+2]
+        - topics                                = 109 [+2]
+        - pages                                 = 4501 [+13]
+
+    Percentage share of:
+        - articles                              = 24.18 % [-0.32]
+        - topics                                = 18.14 % [-0.21]
+        - pages                                 = 26.14 % [-0.45]
+
+    Articles per topic                          = 1.83 [-0.01]
+    Pages per article                           = 22.62 [-0.16]
+    Pages per topic                             = 41.29 [-0.65]
+
+    Satisfaction of non-preprints               = 82.4 % [+0.2]
+
+    Colour = #3d0734, Aubergine (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Macro Physics ::
+    ===================
+
+    No. of:
+        - articles                              = 11 [+1]
+        - topics                                = 11 [+1]
+        - pages                                 = 150 [+6]
+
+    Percentage share of:
+        - articles                              = 1.34 % [+0.1]
+        - topics                                = 1.83 % [+0.11]
+        - pages                                 = 0.87 % [+0.02]
+
+    Articles per topic                          = 1.0
+    Pages per article                           = 13.64 [-0.76]
+    Pages per topic                             = 13.64 [-0.76]
+
+    Satisfaction of non-preprints               = 100.0 %
+
+    Colour = #0504aa, Royal Blue (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Materials ::
+    ===============
+
+    No. of:
+        - articles                              = 27 [+1]
+        - topics                                = 18 [+1]
+        - pages                                 = 302 [+11]
+
+    Percentage share of:
+        - articles                              = 3.28 % [+0.05]
+        - topics                                = 3.0 % [+0.08]
+        - pages                                 = 1.75 % [+0.03]
+
+    Articles per topic                          = 1.5 [-0.03]
+    Pages per article                           = 11.19
+    Pages per topic                             = 16.78 [-0.34]
+
+    Satisfaction of non-preprints               = 100.0 %
+
+    Colour = #952e8f, Warm Purple (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Maths ::
+    ===========
+
+    No. of:
+        - articles                              = 30
+        - topics                                = 16
+        - pages                                 = 1983
+
+    Percentage share of:
+        - articles                              = 3.65 % [-0.08]
+        - topics                                = 2.66 % [-0.08]
+        - pages                                 = 11.52 % [-0.23]
+
+    Articles per topic                          = 1.88
+    Pages per article                           = 66.1
+    Pages per topic                             = 123.94
+
+    Satisfaction of non-preprints               = 70.0 %
+
+    Colour = #f4320c, Vermillion (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Optics ::
+    ============
+
+    No. of:
+        - articles                              = 14
+        - topics                                = 11
+        - pages                                 = 125
+
+    Percentage share of:
+        - articles                              = 1.7 % [-0.04]
+        - topics                                = 1.83 % [-0.06]
+        - pages                                 = 0.73 % [-0.01]
+
+    Articles per topic                          = 1.27
+    Pages per article                           = 8.93
+    Pages per topic                             = 11.36
+
+    Satisfaction of non-preprints               = 100.0 %
+
+    Colour = #dbb40c, Gold (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Particle Physics ::
+    ======================
+
+    No. of:
+        - articles                              = 62
+        - topics                                = 54
+        - pages                                 = 860
+
+    Percentage share of:
+        - articles                              = 7.53 % [-0.18]
+        - topics                                = 8.99 % [-0.27]
+        - pages                                 = 4.99 % [-0.11]
+
+    Articles per topic                          = 1.15
+    Pages per article                           = 13.87
+    Pages per topic                             = 15.93
+
+    Satisfaction of non-preprints               = 96.8 %
+
+    Colour = #840000, Dark Red (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Quantum Computing ::
+    =======================
+
+    No. of:
+        - articles                              = 28 [+2]
+        - topics                                = 25 [+2]
+        - pages                                 = 523 [+80]
+
+    Percentage share of:
+        - articles                              = 3.4 % [+0.17]
+        - topics                                = 4.16 % [+0.21]
+        - pages                                 = 3.04 % [+0.42]
+
+    Articles per topic                          = 1.12 [-0.01]
+    Pages per article                           = 18.68 [+1.64]
+    Pages per topic                             = 20.92 [+1.66]
+
+    Satisfaction of non-preprints               = 92.9 % [+0.6]
+
+    Colour = #014d4e, Dark Teal (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Quantum Mechanics ::
+    =======================
+
+    No. of:
+        - articles                              = 72 [+1]
+        - topics                                = 65 [+1]
+        - pages                                 = 780 [+7]
+
+    Percentage share of:
+        - articles                              = 8.75 % [-0.08]
+        - topics                                = 10.82 % [-0.16]
+        - pages                                 = 4.53 % [-0.05]
+
+    Articles per topic                          = 1.11
+    Pages per article                           = 10.83 [-0.06]
+    Pages per topic                             = 12.0 [-0.08]
+
+    Satisfaction of non-preprints               = 94.4 %
+
+    Colour = #e50000, Red (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+    :: Spacecraft ::
+    ================
+
+    No. of:
+        - articles                              = 26
+        - topics                                = 21
+        - pages                                 = 884
+
+    Percentage share of:
+        - articles                              = 3.16 % [-0.07]
+        - topics                                = 3.49 % [-0.11]
+        - pages                                 = 5.13 % [-0.11]
+
+    Articles per topic                          = 1.24
+    Pages per article                           = 34.0
+    Pages per topic                             = 42.1
+
+    Satisfaction of non-preprints               = 96.2 %
+
+    Colour = #536267, Gunmetal (XKCD Colour Palette)
+
+
+=======================================================================
+
+
+~ END ~

@@ -105,7 +105,7 @@ def checkFiles(folderPath):
                 wrongNameFiles.append(filename)
 
         else:
-            if "METRICS" in filename:
+            if "metrics" in filename:
                 oldMetricsFile = True
 
 
@@ -128,7 +128,7 @@ def getConfigInfo(folderPath):
 
     # Get all of the file's lines imported
     for filename in os.listdir(folderPath):
-        if "CONFIG" in filename:
+        if "config" in filename:
             with open(filename) as f:
                 lines = f.readlines()
 
@@ -210,7 +210,7 @@ def getOldData(folderPath, codesDictionary):
     if oldMetricsFile:
 
         # Getting in all the data
-        with open("METRICS.txt") as f:
+        with open("metrics.txt") as f:
             data = f.readlines()
 
 
@@ -964,13 +964,13 @@ def deleteOldFiles(folderPath):
     # If the old file exists, it is deleted
     for file in os.listdir(folderPath):
 
-        if "CONTENTS" in file:
+        if "contents" in file:
             os.remove(file)
 
-        elif "VISUALS" in file:
+        elif "visuals" in file:
             os.remove(file)
 
-        elif "METRICS" in file:
+        elif "metrics" in file:
             os.remove(file)
 
 
@@ -983,7 +983,7 @@ def writeContentsFile(Topics, subjectColours, codesDictionary):
 
 
     # Writing to the contents file
-    with open("CONTENTS.txt", "w+", encoding='utf-8') as f:
+    with open("contents.txt", "w+", encoding='utf-8') as f:
 
 
         # Opening remarks
@@ -1038,7 +1038,7 @@ def writeMetricsFile(newSubjectData, newOverallData, codesDictionary, subjectDel
 
 
     # Writing to metrics file
-    with open("METRICS.txt", "w+", encoding='utf-8') as f:
+    with open("metrics.txt", "w+", encoding='utf-8') as f:
 
 
         # Opening remarks
@@ -1360,11 +1360,11 @@ def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, 
 
 
     # Saving the figure
-    plt.savefig("VISUALS.pdf", bbox_inches="tight", dpi=3000)
+    plt.savefig("visuals.pdf", bbox_inches="tight", dpi=3000)
 
 
 # Getting the folder directory
-directory = os.path.dirname(os.path.realpath(__file__))
+directory = "../" + os.path.dirname(os.path.realpath(__file__))
 
 life = True
 
