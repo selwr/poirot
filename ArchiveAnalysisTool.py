@@ -1,29 +1,5 @@
-# Archive Analysis Tool v2.0
-# created by Sam Wallis-Riches, 2020
-
-'''
-LINE NUMBERS
-
-Imports: 29
-Initial set-up: 64
-File checks: 80
-Config data: 124
-Old data: 205
-Roman numerals: 344
-Topics: 381
-New Data: 516
-Calculating deltas: 816
-Formatting deltas: 911
-Deleting old files: 958
-Contents file: 979
-Metrics file: 1019
-Getting colours: 1164
-Plotting graphs: 1207
-Master running: 1374
-
-'''
-
-
+# Archive Analysis Tool v2.1
+# created by Sam Wallis-Riches, 2021
 
 '''
 IMPORTS
@@ -41,6 +17,7 @@ import logging
 
 from PyPDF2 import PdfFileReader
 from matplotlib import rc
+from matplotlib.lines import Line2D
 
 
 
@@ -82,9 +59,6 @@ FILE CHECK
 
 def checkFiles(folderPath):
 
-    global oldMetricsFile
-    oldMetricsFile = False
-
     # Lists for files that need to be fixed
     corruptFiles = []
     wrongNameFiles = []
@@ -96,17 +70,14 @@ def checkFiles(folderPath):
 
             # Corrupted file net
             try:
-                pdf = PdfFileReader(open(filename, "rb"))
+                if ".pdf" in filename:
+                    pdf = PdfFileReader(open(folderPath + "/" + filename, "rb"))
             except PyPDF2.utils.PdfReadError:
                 corruptFiles.append(filename)
 
             # Bad filename net
             if ("]" not in filename) or ("{" not in filename) or ("}" not in filename):
                 wrongNameFiles.append(filename)
-
-        else:
-            if "metrics" in filename:
-                oldMetricsFile = True
 
 
     # Returns respective filenames
@@ -210,7 +181,7 @@ def getOldData(folderPath, codesDictionary):
     if oldMetricsFile:
 
         # Getting in all the data
-        with open("metrics.txt") as f:
+        with open(folderPath + "/metrics.txt") as f:
             data = f.readlines()
 
 
@@ -628,7 +599,7 @@ def getNewData(subjectCodes, folderPath, coloursDict):
         if "[" not in filename:
             continue
 
-        with open(filename, "rb") as f:
+        with open(folderPath + "/" + filename, "rb") as f:
             pdf = PdfFileReader(f)
             pages += pdf.getNumPages()
 
@@ -979,11 +950,11 @@ def deleteOldFiles(folderPath):
 WRITING TO CONTENTS FILE
 '''
 
-def writeContentsFile(Topics, subjectColours, codesDictionary):
+def writeContentsFile(Topics, subjectColours, codesDictionary, folderPath):
 
 
     # Writing to the contents file
-    with open("contents.txt", "w+", encoding='utf-8') as f:
+    with open(folderPath + "/contents.txt", "w+", encoding='utf-8') as f:
 
 
         # Opening remarks
@@ -1019,7 +990,7 @@ def writeContentsFile(Topics, subjectColours, codesDictionary):
 WRITING TO METRICS FILES
 '''
 
-def writeMetricsFile(newSubjectData, newOverallData, codesDictionary, subjectDeltas, overallDeltas):
+def writeMetricsFile(newSubjectData, newOverallData, codesDictionary, subjectDeltas, overallDeltas, folderPath):
 
     # Data indices
     '''
@@ -1038,7 +1009,7 @@ def writeMetricsFile(newSubjectData, newOverallData, codesDictionary, subjectDel
 
 
     # Writing to metrics file
-    with open("metrics.txt", "w+", encoding='utf-8') as f:
+    with open(folderPath + "/metrics.txt", "w+", encoding='utf-8') as f:
 
 
         # Opening remarks
@@ -1207,7 +1178,7 @@ def getColours(newSubjectData, subjectColours):
 PLOTTING GRAPHS
 '''
 
-def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, width, height):
+def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, width, height, folderPath):
 
     # Setting up data lists
     colours = []
@@ -1239,14 +1210,14 @@ def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, 
     for subject in newSubjectData:
 
         colours.append(subjectColours[subject[0]])
-        subjectNames.append(codesDictionary[subject[0]].upper())
+        subjectNames.append(codesDictionary[subject[0]])
         aValues.append(subject[1]*10)
         tValues.append(subject[2]*10)
         pValues.append(subject[3])
-        atValues.append(subject[7]*1000)
-        paValues.append(subject[8]*10)
-        ptValues.append(subject[9]*10)
-        satValues.append(subject[10]*10)
+        atValues.append(subject[7])
+        paValues.append(subject[8])
+        ptValues.append(subject[9])
+        satValues.append(subject[10])
 
 
     # Formatting subject names
@@ -1270,25 +1241,32 @@ def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, 
 
     fig = plt.figure()
 
+    fig.suptitle("Visual Representation of Metrics", fontsize = 32, weight="extra bold")
+
 
     # Plotting bar charts
     bars = fig.add_subplot(1,1,1)
-    bars.set_title("VISUAL REPRESENTATION OF METRICS", fontsize = 32, weight="extra bold")
+    # bars.set_title("Visual Representation of Metrics", fontsize = 32, weight="extra bold")
 
     bars.bar(5*x_vals - 1.5, aValues, color=colours, width=1)
     bars.bar(5*x_vals, tValues, color=colours, width=1)
     bars.bar(5*x_vals + 1.5, pValues, color=colours, width=1)
-
+    
 
     # Configuring bar charts
     bars.margins(x=0.01)
 
     bars.set_xticks(5*x_vals)
-    bars.set_xticklabels(subjectNames, fontsize=10)
+    bars.set_xticklabels(subjectNames, fontsize=12)
 
     bars.set_yticks([])
     bars.set_yticklabels([])
 
+    bars.set_frame_on(False)
+    
+    xmin, xmax = bars.get_xaxis().get_view_interval()
+    ymin, ymax = bars.get_yaxis().get_view_interval()
+    bars.add_artist(Line2D((xmin, xmax), (ymin, ymin), color='black', linewidth=1))
 
     # Getting colours
     aColours, tColours, pColours = getColours(newSubjectData, subjectColours)
@@ -1312,59 +1290,100 @@ def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, 
 
 
     # Plotting articles pie chart
-    aPie = fig.add_subplot(3,6,4)
+    aPie = fig.add_subplot(4,9,1)
 
     aPie.pie(aValues, colors=aColours, counterclock=True, wedgeprops=dict(width=0.4), explode=explosions)
-    aPie.set_xlabel("ARTICLES", fontsize=15, weight="bold")
+    aPie.set_xlabel("Articles", fontsize=15, weight="bold")
     aPie.pie(averageList, colors=artColour, radius=0.5)
-
+    
 
     # Plotting topics pie chart
-    tPie = fig.add_subplot(3,6,5)
+    tPie = fig.add_subplot(4,9,2)
 
     tPie.pie(tValues, colors=tColours, counterclock=True, wedgeprops=dict(width=0.4), explode=explosions)
-    tPie.set_xlabel("TOPICS", fontsize=15, weight="bold")
+    tPie.set_xlabel("Topics", fontsize=15, weight="bold")
     tPie.pie(averageList, colors=topColour, radius=0.5)
 
 
     # Plotting pages pie chart
-    pPie = fig.add_subplot(3,6,6)
+    pPie = fig.add_subplot(4,9,3)
 
     pPie.pie(pValues, colors=pColours, counterclock=True, wedgeprops=dict(width=0.4), explode=explosions)
-    pPie.set_xlabel("PAGES", fontsize=15, weight="bold")
+    pPie.set_xlabel("Pages", fontsize=15, weight="bold")
     pPie.pie(averageList, colors=pageColour, radius=0.5)
 
-
+    
     # a:t ratio plot
-    atPlot = fig.add_subplot(1,1,1)
-    atPlot.plot(5*x_vals, atValues, color="b", marker="o", label="ARTICLES PER TOPIC (x1000)", markersize=5, linewidth=2)
+    atPlot = fig.add_subplot(4,4,3)
+    atPlot.plot(5*x_vals, atValues, color="b", marker="o", markersize=5, linewidth=2)
 
+    atPlot.set_yticks([])
+    atPlot.set_yticklabels([])
 
+    atPlot.set_xlabel("Articles per Topic")
+    atPlot.set_xticks([])
+    atPlot.set_xticklabels([])
+
+    y_vals = np.full(S, newOverallData[6])
+    atPlot.plot(5*x_vals, y_vals, color="b", ls='--', linewidth=1)
+    
+    
+    
     # p:a ratio plot
-    paPlot = fig.add_subplot(1,1,1)
-    paPlot.plot(5*x_vals, paValues, color="r", marker="o", label="PAGES PER ARTICLE (x10)", markersize=5, linewidth=2)
+    paPlot = fig.add_subplot(4,4,4)
+    paPlot.plot(5*x_vals, paValues, color="r", marker="o", markersize=5, linewidth=2)
 
+    paPlot.set_yticks([])
+    paPlot.set_yticklabels([])
+
+    paPlot.set_xlabel("Pages per Article")
+    paPlot.set_xticks([])
+    paPlot.set_xticklabels([])
+
+    y_vals = np.full(S, newOverallData[9])
+    paPlot.plot(5*x_vals, y_vals, color="r", ls='--', linewidth=1)
+    
 
     # p:t ratio plot
-    ptPlot = fig.add_subplot(1,1,1)
-    ptPlot.plot(5*x_vals, ptValues, color="y", marker="o", label="PAGES PER TOPIC (x10)", markersize=5, linewidth=2)
+    ptPlot = fig.add_subplot(4,4,7)
+    ptPlot.plot(5*x_vals, ptValues, color="y", marker="o", markersize=5, linewidth=2)
+
+    ptPlot.set_yticks([])
+    ptPlot.set_yticklabels([])
+
+    ptPlot.set_xlabel("Pages per Topic")
+    ptPlot.set_xticks([])
+    ptPlot.set_xticklabels([])
+
+    y_vals = np.full(S, newOverallData[10])
+    ptPlot.plot(5*x_vals, y_vals, color="y", ls='--', linewidth=1)
 
 
     # sat plot
-    satPlot = fig.add_subplot(1,1,1)
-    satPlot.plot(5*x_vals, satValues, color="g", marker="o", label="SATISFACTION (x10)", markersize=5, linewidth=2)
+    satPlot = fig.add_subplot(4,4,8)
+    satPlot.plot(5*x_vals, satValues, color="g", marker="o", markersize=5, linewidth=2)
 
+    satPlot.set_yticks([])
+    satPlot.set_yticklabels([])
 
-    # Plotting the legend
-    plt.legend(loc='upper left',  prop={'size': 13}, frameon=False)
+    satPlot.set_xlabel("Satisfaction")
+    satPlot.set_xticks([])
+    satPlot.set_xticklabels([])
+
+    y_vals = np.full(S, newOverallData[12])
+    satPlot.plot(5*x_vals, y_vals, color="g", ls='--', linewidth=1)
 
 
     # Saving the figure
-    plt.savefig("visuals.pdf", bbox_inches="tight", dpi=3000)
+    plt.savefig(folderPath + "/visuals.pdf", bbox_inches="tight", dpi=3000)
 
 
-# Getting the folder directory
-directory = "../" + os.path.dirname(os.path.realpath(__file__))
+# Getting the folder directories
+in_dir = r"/Users/selwr/Documents/Almanac"
+config_dir = os.path.dirname(os.path.realpath(__file__))
+out_dir = os.path.dirname(os.path.realpath(__file__))
+
+
 
 life = True
 
@@ -1381,20 +1400,28 @@ while life:
 
 
     # File check
-    life, filesToFixCorrupted, filesToFixName = checkFiles(directory)
+    life, filesToFixCorrupted, filesToFixName = checkFiles(in_dir)
+
+    global oldMetricsFile
+    oldMetricsFile = False
+
+    for filename in os.listdir(config_dir):
+        if "metrics" in filename:
+            oldMetricsFile = True
+            
 
     if life == True:
 
         # Getting config data
-        codes, codesDict, colours, width, height = getConfigInfo(directory)
+        codes, codesDict, colours, width, height = getConfigInfo(config_dir)
 
 
         # Getting old data
-        old_subject_data, old_overall_data = getOldData(directory, codesDict)
+        old_subject_data, old_overall_data = getOldData(config_dir, codesDict)
 
 
         # Getting new data
-        new_subject_data, new_overall_data, topics = getNewData(codes, directory, colours)
+        new_subject_data, new_overall_data, topics = getNewData(codes, in_dir, colours)
 
 
         # Calculating deltas
@@ -1408,19 +1435,19 @@ while life:
 
 
         # Deleting old files
-        deleteOldFiles(directory)
+        deleteOldFiles(config_dir)
 
 
         # Writing to the contents file
-        writeContentsFile(topics, colours, codesDict)
+        writeContentsFile(topics, colours, codesDict, out_dir)
 
 
         # Writing to the metrics file
-        writeMetricsFile(new_subject_data, new_overall_data, codesDict, subject_deltas, overall_deltas)
+        writeMetricsFile(new_subject_data, new_overall_data, codesDict, subject_deltas, overall_deltas, out_dir)
 
 
         # Plotting the graphs
-        plotGraphs(new_subject_data, new_overall_data, colours, codesDict, width, height)
+        plotGraphs(new_subject_data, new_overall_data, colours, codesDict, width, height, out_dir)
 
 
         # Ending print

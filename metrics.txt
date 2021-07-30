@@ -3,28 +3,28 @@
 =======================================================================
 
     No. of:
-        - articles                              = 823 [+19]
-        - topics                                = 601 [+18]
-        - pages                                 = 17219 [+341]
+        - articles                              = 828
+        - topics                                = 605
+        - pages                                 = 17333
         - subjects                              = 13
 
-    Articles per topic                          = 1.37 [-0.01]
-    Articles per subject                        = 63.31 [+1.46]
+    Articles per topic                          = 1.37
+    Articles per subject                        = 63.69
 
-    Topics per subject                          = 46.23 [+1.38]
+    Topics per subject                          = 46.54
 
-    Pages per article                           = 20.92 [-0.07]
-    Pages per topic                             = 28.65 [-0.3]
-    Pages per subject                           = 1324.54 [+26.23]
+    Pages per article                           = 20.93
+    Pages per topic                             = 28.65
+    Pages per subject                           = 1333.31
 
-    Overall satisfaction of non-preprints       = 91.0 %
+    Overall satisfaction of non-preprints       = 90.9 %
 
-    Average article colour                      = #43653e
-    Average topic colour                        = #4415be
-    Average page colour                         = #474188
+    Average article colour                      = #43228d
+    Average topic colour                        = #43d2f7
+    Average page colour                         = #46efa0
 
 
-    Last updated on 22/09/2020 at 19:00:34
+    Last updated on 30/07/2021 at 11:42:37
 
 
 =======================================================================
@@ -34,20 +34,20 @@
     ==================
 
     No. of:
-        - articles                              = 188 [+6]
-        - topics                                = 154 [+5]
-        - pages                                 = 2546 [+77]
+        - articles                              = 191
+        - topics                                = 156
+        - pages                                 = 2616
 
     Percentage share of:
-        - articles                              = 22.84 % [+0.2]
-        - topics                                = 25.62 % [+0.06]
-        - pages                                 = 14.79 % [+0.16]
+        - articles                              = 23.07 %
+        - topics                                = 25.79 %
+        - pages                                 = 15.09 %
 
     Articles per topic                          = 1.22
-    Pages per article                           = 13.54 [-0.03]
-    Pages per topic                             = 16.53 [-0.04]
+    Pages per article                           = 13.7
+    Pages per topic                             = 16.77
 
-    Satisfaction of non-preprints               = 93.6 % [+0.2]
+    Satisfaction of non-preprints               = 93.7 %
 
     Colour = #000133, Very Dark Blue (XKCD Colour Palette)
 
@@ -64,9 +64,9 @@
         - pages                                 = 332
 
     Percentage share of:
-        - articles                              = 3.89 % [-0.09]
-        - topics                                = 3.83 % [-0.12]
-        - pages                                 = 1.93 % [-0.04]
+        - articles                              = 3.86 %
+        - topics                                = 3.8 %
+        - pages                                 = 1.92 %
 
     Articles per topic                          = 1.39
     Pages per article                           = 10.38
@@ -84,20 +84,20 @@
     =================
 
     No. of:
-        - articles                              = 111 [+4]
-        - topics                                = 79 [+4]
-        - pages                                 = 2738 [+115]
+        - articles                              = 112
+        - topics                                = 80
+        - pages                                 = 2762
 
     Percentage share of:
-        - articles                              = 13.49 % [+0.18]
-        - topics                                = 13.14 % [+0.28]
-        - pages                                 = 15.9 % [+0.36]
+        - articles                              = 13.53 %
+        - topics                                = 13.22 %
+        - pages                                 = 15.93 %
 
-    Articles per topic                          = 1.41 [-0.02]
-    Pages per article                           = 24.67 [+0.16]
-    Pages per topic                             = 34.66 [-0.31]
+    Articles per topic                          = 1.4
+    Pages per article                           = 24.66
+    Pages per topic                             = 34.52
 
-    Satisfaction of non-preprints               = 94.6 % [-1.7]
+    Satisfaction of non-preprints               = 94.6 %
 
     Colour = #000000, Black (XKCD Colour Palette)
 
@@ -109,20 +109,20 @@
     ===============
 
     No. of:
-        - articles                              = 23 [+2]
-        - topics                                = 15 [+2]
-        - pages                                 = 1495 [+32]
+        - articles                              = 23
+        - topics                                = 15
+        - pages                                 = 1495
 
     Percentage share of:
-        - articles                              = 2.79 % [+0.18]
-        - topics                                = 2.5 % [+0.27]
-        - pages                                 = 8.68 % [+0.01]
+        - articles                              = 2.78 %
+        - topics                                = 2.48 %
+        - pages                                 = 8.63 %
 
-    Articles per topic                          = 1.53 [-0.09]
-    Pages per article                           = 65.0 [-4.67]
-    Pages per topic                             = 99.67 [-12.87]
+    Articles per topic                          = 1.53
+    Pages per article                           = 65.0
+    Pages per topic                             = 99.67
 
-    Satisfaction of non-preprints               = 95.7 % [+0.5]
+    Satisfaction of non-preprints               = 95.7 %
 
     Colour = #06470c, Forest Green (XKCD Colour Palette)
 
@@ -134,20 +134,20 @@
     ===============
 
     No. of:
-        - articles                              = 199 [+2]
-        - topics                                = 109 [+2]
-        - pages                                 = 4501 [+13]
+        - articles                              = 199
+        - topics                                = 109
+        - pages                                 = 4501
 
     Percentage share of:
-        - articles                              = 24.18 % [-0.32]
-        - topics                                = 18.14 % [-0.21]
-        - pages                                 = 26.14 % [-0.45]
+        - articles                              = 24.03 %
+        - topics                                = 18.02 %
+        - pages                                 = 25.97 %
 
-    Articles per topic                          = 1.83 [-0.01]
-    Pages per article                           = 22.62 [-0.16]
-    Pages per topic                             = 41.29 [-0.65]
+    Articles per topic                          = 1.83
+    Pages per article                           = 22.62
+    Pages per topic                             = 41.29
 
-    Satisfaction of non-preprints               = 82.4 % [+0.2]
+    Satisfaction of non-preprints               = 82.4 %
 
     Colour = #3d0734, Aubergine (XKCD Colour Palette)
 
@@ -159,18 +159,18 @@
     ===================
 
     No. of:
-        - articles                              = 11 [+1]
-        - topics                                = 11 [+1]
-        - pages                                 = 150 [+6]
+        - articles                              = 11
+        - topics                                = 11
+        - pages                                 = 150
 
     Percentage share of:
-        - articles                              = 1.34 % [+0.1]
-        - topics                                = 1.83 % [+0.11]
-        - pages                                 = 0.87 % [+0.02]
+        - articles                              = 1.33 %
+        - topics                                = 1.82 %
+        - pages                                 = 0.87 %
 
     Articles per topic                          = 1.0
-    Pages per article                           = 13.64 [-0.76]
-    Pages per topic                             = 13.64 [-0.76]
+    Pages per article                           = 13.64
+    Pages per topic                             = 13.64
 
     Satisfaction of non-preprints               = 100.0 %
 
@@ -184,18 +184,18 @@
     ===============
 
     No. of:
-        - articles                              = 27 [+1]
-        - topics                                = 18 [+1]
-        - pages                                 = 302 [+11]
+        - articles                              = 27
+        - topics                                = 18
+        - pages                                 = 302
 
     Percentage share of:
-        - articles                              = 3.28 % [+0.05]
-        - topics                                = 3.0 % [+0.08]
-        - pages                                 = 1.75 % [+0.03]
+        - articles                              = 3.26 %
+        - topics                                = 2.98 %
+        - pages                                 = 1.74 %
 
-    Articles per topic                          = 1.5 [-0.03]
+    Articles per topic                          = 1.5
     Pages per article                           = 11.19
-    Pages per topic                             = 16.78 [-0.34]
+    Pages per topic                             = 16.78
 
     Satisfaction of non-preprints               = 100.0 %
 
@@ -214,9 +214,9 @@
         - pages                                 = 1983
 
     Percentage share of:
-        - articles                              = 3.65 % [-0.08]
-        - topics                                = 2.66 % [-0.08]
-        - pages                                 = 11.52 % [-0.23]
+        - articles                              = 3.62 %
+        - topics                                = 2.64 %
+        - pages                                 = 11.44 %
 
     Articles per topic                          = 1.88
     Pages per article                           = 66.1
@@ -239,9 +239,9 @@
         - pages                                 = 125
 
     Percentage share of:
-        - articles                              = 1.7 % [-0.04]
-        - topics                                = 1.83 % [-0.06]
-        - pages                                 = 0.73 % [-0.01]
+        - articles                              = 1.69 %
+        - topics                                = 1.82 %
+        - pages                                 = 0.72 %
 
     Articles per topic                          = 1.27
     Pages per article                           = 8.93
@@ -259,20 +259,20 @@
     ======================
 
     No. of:
-        - articles                              = 62
-        - topics                                = 54
-        - pages                                 = 860
+        - articles                              = 63
+        - topics                                = 55
+        - pages                                 = 880
 
     Percentage share of:
-        - articles                              = 7.53 % [-0.18]
-        - topics                                = 8.99 % [-0.27]
-        - pages                                 = 4.99 % [-0.11]
+        - articles                              = 7.61 %
+        - topics                                = 9.09 %
+        - pages                                 = 5.08 %
 
     Articles per topic                          = 1.15
-    Pages per article                           = 13.87
-    Pages per topic                             = 15.93
+    Pages per article                           = 13.97
+    Pages per topic                             = 16.0
 
-    Satisfaction of non-preprints               = 96.8 %
+    Satisfaction of non-preprints               = 95.2 %
 
     Colour = #840000, Dark Red (XKCD Colour Palette)
 
@@ -284,20 +284,20 @@
     =======================
 
     No. of:
-        - articles                              = 28 [+2]
-        - topics                                = 25 [+2]
-        - pages                                 = 523 [+80]
+        - articles                              = 28
+        - topics                                = 25
+        - pages                                 = 523
 
     Percentage share of:
-        - articles                              = 3.4 % [+0.17]
-        - topics                                = 4.16 % [+0.21]
-        - pages                                 = 3.04 % [+0.42]
+        - articles                              = 3.38 %
+        - topics                                = 4.13 %
+        - pages                                 = 3.02 %
 
-    Articles per topic                          = 1.12 [-0.01]
-    Pages per article                           = 18.68 [+1.64]
-    Pages per topic                             = 20.92 [+1.66]
+    Articles per topic                          = 1.12
+    Pages per article                           = 18.68
+    Pages per topic                             = 20.92
 
-    Satisfaction of non-preprints               = 92.9 % [+0.6]
+    Satisfaction of non-preprints               = 92.9 %
 
     Colour = #014d4e, Dark Teal (XKCD Colour Palette)
 
@@ -309,18 +309,18 @@
     =======================
 
     No. of:
-        - articles                              = 72 [+1]
-        - topics                                = 65 [+1]
-        - pages                                 = 780 [+7]
+        - articles                              = 72
+        - topics                                = 65
+        - pages                                 = 780
 
     Percentage share of:
-        - articles                              = 8.75 % [-0.08]
-        - topics                                = 10.82 % [-0.16]
-        - pages                                 = 4.53 % [-0.05]
+        - articles                              = 8.7 %
+        - topics                                = 10.74 %
+        - pages                                 = 4.5 %
 
     Articles per topic                          = 1.11
-    Pages per article                           = 10.83 [-0.06]
-    Pages per topic                             = 12.0 [-0.08]
+    Pages per article                           = 10.83
+    Pages per topic                             = 12.0
 
     Satisfaction of non-preprints               = 94.4 %
 
@@ -339,9 +339,9 @@
         - pages                                 = 884
 
     Percentage share of:
-        - articles                              = 3.16 % [-0.07]
-        - topics                                = 3.49 % [-0.11]
-        - pages                                 = 5.13 % [-0.11]
+        - articles                              = 3.14 %
+        - topics                                = 3.47 %
+        - pages                                 = 5.1 %
 
     Articles per topic                          = 1.24
     Pages per article                           = 34.0
