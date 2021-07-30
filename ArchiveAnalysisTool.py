@@ -1396,7 +1396,7 @@ MASTER RUNNING OF ArchiveAnalysisTool
 while life:
 
     # Starting up print
-    print("\nStarting...\n")
+    print("Starting...\n")
 
 
     # File check
@@ -1408,6 +1408,8 @@ while life:
     for filename in os.listdir(config_dir):
         if "metrics" in filename:
             oldMetricsFile = True
+        
+    print("File check complete!\n")
             
 
     if life == True:
@@ -1415,13 +1417,19 @@ while life:
         # Getting config data
         codes, codesDict, colours, width, height = getConfigInfo(config_dir)
 
+        print("Config data extracted!\n")
+
 
         # Getting old data
         old_subject_data, old_overall_data = getOldData(config_dir, codesDict)
 
+        print("Old data extracted!\n")
+
 
         # Getting new data
         new_subject_data, new_overall_data, topics = getNewData(codes, in_dir, colours)
+
+        print("New data obtained!\n")
 
 
         # Calculating deltas
@@ -1430,24 +1438,36 @@ while life:
 
         # Formatting deltas, if needed
         if deltasON:
+            
+            print("Deltas calculated!\n")
 
             subject_deltas, overall_deltas = formatDeltas(subject_deltas, overall_deltas)
+
+            print("Deltas formatted!\n")
 
 
         # Deleting old files
         deleteOldFiles(config_dir)
 
+        print("Old files deleted!\n")
+
 
         # Writing to the contents file
         writeContentsFile(topics, colours, codesDict, out_dir)
 
+        print("Contents file written!\n")
+
 
         # Writing to the metrics file
         writeMetricsFile(new_subject_data, new_overall_data, codesDict, subject_deltas, overall_deltas, out_dir)
+    
+        print("Metric file written!\n")
 
 
         # Plotting the graphs
         plotGraphs(new_subject_data, new_overall_data, colours, codesDict, width, height, out_dir)
+        
+        print("Graphs plotted!\n")
 
 
         # Ending print
