@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Archive Analysis Tool v2.1
 # created by Sam Wallis-Riches, 2021
 
@@ -100,7 +101,7 @@ def getConfigInfo(folderPath):
     # Get all of the file's lines imported
     for filename in os.listdir(folderPath):
         if "config" in filename:
-            with open(filename) as f:
+            with open(folderPath + filename) as f:
                 lines = f.readlines()
 
 
@@ -936,13 +937,13 @@ def deleteOldFiles(folderPath):
     for file in os.listdir(folderPath):
 
         if "contents" in file:
-            os.remove(file)
+            os.remove(folderPath + file)
 
         elif "visuals" in file:
-            os.remove(file)
+            os.remove(folderPath + file)
 
         elif "metrics" in file:
-            os.remove(file)
+            os.remove(folderPath + file)
 
 
 
@@ -960,7 +961,7 @@ def writeContentsFile(Topics, subjectColours, codesDictionary, folderPath):
         # Opening remarks
         f.write("~ CONTENTS ~\n\n")
 
-        f.write("==========================================================================================================================\n\n")
+        f.write("=====================================================================================================\n\n")
 
 
         # Writing each of the topics in turn, by subject
@@ -976,7 +977,7 @@ def writeContentsFile(Topics, subjectColours, codesDictionary, folderPath):
 
             f.write("\n")
 
-            f.write("==========================================================================================================================\n\n")
+            f.write("=====================================================================================================\n\n")
 
 
         # Closing remarks
@@ -1379,10 +1380,9 @@ def plotGraphs(newSubjectData, newOverallData, subjectColours, codesDictionary, 
 
 
 # Getting the folder directories
-in_dir = r"/Users/selwr/Documents/Almanac"
-config_dir = os.path.dirname(os.path.realpath(__file__))
-out_dir = os.path.dirname(os.path.realpath(__file__))
-
+in_dir = os.path.dirname(os.path.realpath(__file__))
+config_dir = os.path.dirname(os.path.realpath(__file__)) + r'/Analysis/'
+out_dir = os.path.dirname(os.path.realpath(__file__)) + r'/Analysis/'
 
 
 life = True
