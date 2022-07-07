@@ -1,0 +1,663 @@
+~ CONTENTS ~
+
+=====================================================================================================
+
+:: Astrophysics #000133 ::
+- Odd green substance on Moon identified
+- Potentially biotic phosphine gas found in Venusian atmosphere
+- Betelgeuse may have merged with its binary companion, explaining its high spin rate
+- Neutron star cores contain quark-gluon soup
+- Human-like intelligence is not convergent feature of evolution
+- FRBs produced by superconducting cosmic strings
+- The lowest detected stellar Fe abundance
+- 'Lost' exoplanet recovered from TESS's single-transit bias-archive
+- Finding life on exomoons
+- 'Oumuamua has likely been lonely for a long time
+- Huge X-shaped double-lobe galaxy imaged
+- Evidence of liquid water on Mars under polar ice caps
+- Huge explosion warps spacetime
+- The present-day star formation rate of the Milky Way
+- First thick-disk planet
+- Habitability of Venus
+- TNOs discovered by DES could explain gravitational anomalities & rule out Planet Nine
+- Planet discovered within debris disk of a pre-main-sequence star
+- High-energy GRB (2)
+- Neutral hydrogen discovered for first time outside the Milky Way
+- White dwarf crystallising
+- Star Formation in the Milky Way and Nearby Galaxies
+- Mistaken planet is actually a collision of two planetesimals
+- Detecting over 300 TNOs with DES
+- Volcanoes on Titan
+- Fast Blue Optical Transients (2)
+- SETI
+- Intermediate-mass star supernovae mechanism
+- First asteroid within orbit of Venus (2)
+- Directed panspermia - we were put here by other intelligent organisms
+- Airborne dust on tidally locked planets increases zone of habitability between night and day sides
+- Very active 'ring of fire' ring galaxy discovered
+- Hubble Ultra Deep Field
+- Galaxy-wide magnetic field mapped by synchrotron emission
+- Spin evolution of 'Oumuamua
+- Pulsar is possibly a quark star
+- Outer Solar System Possibly Shaped by a Stellar Fly-by
+- High-energy neutrino discovered coming from tidal disruption event
+- Diffuse interstellar bands & Rydberg matter
+- Using radar to detect cosmic neutrino showers (3)
+- Sagittarius galaxy passing through Milky Way may have caused our Solar System to form
+- 'Population' of 19 interstellar asteroids in orbit in our Solar System
+- Even if we can find habitable-zone, Earth-like planets, it is difficult to estimate those with the right proportion of elements
+- Earth was originally a water world
+- Milky Way disc warped by recent or ongoing collision with a satellite galaxy
+- FRB periodicity (8)
+- Cherenkov-like explanation for GRBs travelling backwards in time
+- Neutrino from cosmic jets
+- Planet 9 Hypotheses (8)
+- Non-gravitational acceleration of 'Oumuamua
+- Neutron star may be only 33 years old
+- Modeling the uncertainties of solar system ephemerides for robust gravitational wave searches with pulsar timing to prevent inconsistencies in discrepancies between Romer delay and GW effects
+- Fermi Paradox
+- Fermi bubbles at galactic centre are forward shocks driven by SMBH jets
+- Axion decay possibly explaining GRBs
+- Aperiodic drops in flux
+- Stars are orbited by planets as a rule
+- 'Oumuamua may have circulated Milky Way several times
+- Natural origins of 'Oumuamua
+- Solar radiation pressure could explain 'Oumuamua's acceleration
+- Teardrop star
+- Supernova and GRB discovered coincidently
+- Peculiar white dwarf formed from double white dwarf merger
+- Double Einstein ring
+- Formation of Ultima Thule
+- Prevalence of Earth-size planets orbiting Sun-like stars
+- Rapidly rotating white dwarf dragging spacetime
+- Dark Matter as a Trigger for Periodic Comet Impacts
+- Earth rotation aperture synthesis interferometry
+- Nanoflares heating up the sun's coronae (2)
+- Extremely old disk galaxy
+- Double-exoplanet solar system directly imaged
+- Failed supernovae - ultragiants swallowing themselves
+- Intelligent organisms could be detected by seeing that they have mined asteroids
+- 'Oumuamua is an active asteroid
+- Broader viability of alien life in exoplanet atmospheres
+- It is highly unlikely that Earth hosts the only intelligent life that has ever occurred
+- Intact giant planet transiting closely to white dwarf after surviving red giant swelling period
+- The occurrence rate of Earth-sized planets around stars
+- The Genesis Project - seeding an exoplanet with microbial organisms for the equivalent of a cambrian explosion on a chosen exoplanet
+- Cosmic rays may have accelerated evolution
+- The Great Disk Shadow has moved between Hubble observations, suggesting a double warp due to a second planet
+- Rogue planets
+- ABYSS Hubble Ultra Deep Field
+- Searching for a universal biosignature
+- Most powerful supernova SN2016aps likely due to pair instability event after binary merger
+- Radio bubbles at the Galactic Centre
+- Exposed remnant core of giant planet possibly discovered
+- Solar wind measurements and imaging by Parker Solar Probe (4)
+- A disintegrating minor planet transiting a white dwarf
+- First double white dwarf binary
+- A bent bridge between two galaxy clusters
+- Space junk tracking
+- Possible birthplaces of the Sun
+- A galaxy lacking dark matter
+- A distant red star may enter the Einstein ring of α Cen A in 2028
+- Stars made in outflows may populate the stellar halo of the Milky Way
+- 'Oumuamua might be a block of hydrogen ice
+- Very high energy gamma ray emission from colliding wind binary
+- The darkest galaxy, Segue 1 (4)
+- Magnetars as FRB progenitors (4)
+- New Drake equation estimate
+- Triple-star system surrounded by a trio of disks - unclear how (2)
+- Proportion of 'safe' star systems in the Milky Way
+- Fastest pulsar at 716Hz
+- Jovian sub-surface ocean-bearing moons tidally maintain each other's liquid state
+- Quarknova
+- Two trillion galaxies in the universe
+- Very long GRB
+- 'G' objects are merged binary stars being expanded by SgrA-star
+- Neutron star merger forming heavy elements
+- A study of physical properties and environments of nearby galaxies
+- A large Northern ocean on early Mars
+- Searching for extraterrestrial life by looking for chemical disequilibrium in exoplanets' atmospheres
+- GRBs might be FRB progenitors
+- Peculiar UV flash post- type IA supernova
+- Binary star merger forms blue supergiant and then goes supernova
+- Searching for Proxima c
+- Stellar magnetic field collapse could explain GRB origins
+- New method to predict solar flares
+- An AI that classifies astronomical sources by image data through pixel-level deep learning
+- The Boomerang Nebula - the coldest known region in the Universe; even CMBR is warmer
+- Ongoing planet formation imaged
+- Repeating FRB
+- Origin of Pulsar Radio Emission
+- Proxima b exoplanet confirmed
+- Borisov odd composition could indicate where it formed (2)
+- Number density of interstellar objects
+- STARFORGE - a star formation simulation code (2)
+- Exoplanet sub-Neptune abundance
+- Monte Carlo simulations of estimates of the Drake equation factors
+- Centaur asteroids may have an interstellar origin
+- Possible hypernova
+- Einstein ring
+- The Great Filter (3)
+- Tunguska event may have been the through-passage of an asteroid across Earth atmosphere
+- Polar circumbinary protoplanetary disk
+- Gravitational redshift test by misplaced satellites
+- Hyper-velocity runaway star
+- Earth-sterilising star
+- Many star systems (2)
+- Oldest star
+- Triple star system illustrates principle of freefall
+- Deimos' orbit explained by a past Martian ring
+- Bright boulders on Bennu are from Vesta
+- Our heliosphere is shaped like a deflated, curled-up croissant
+- 'Oumuamua likely from a binary system
+- Pulsing non-dead radio-emitting magnetar discovered
+- Sudden disapperance of massive star may be second known failed supernova
+- Odd radio circles
+- Cosmic planet formation
+- Galaxy made up of almost entirely dark matter - dark galaxy
+- Youngest known pulsar (magnetar) discovered
+- Habitable-zone Earth-sized planet found (most Earth-like exoplanet ever)
+- Incredibly old galaxy observed by Hubble, at z = 11.1
+- 1000-day continuous seventh-explosion supernova, iPTF14hls
+
+=====================================================================================================
+
+:: Cosmology #3d0734 ::
+- False vacuum decay nucleation seeds (5)
+- Supersymmetry
+- Universe may not be uniformally expanding
+- Cosmological constant problem
+- Zero-point energy
+- The universe as mini-universes and foam
+- Non-minimally coupled inflation
+- LQC
+- Gisin's theory of indeterminism (4)
+- Relaxation principle
+- M-Theory
+- The conformal bootstrap
+- Shell universe model (3)
+- Slow roll inflation (solving graceful exit problem)
+- The birth of the universe was a quantum mechanical tunneling event
+- Revealing the Dark Threads of the Cosmic Web using a Slime Mold
+- AdS spacetime is quantum error correction (2)
+- Dimensionless cosmology
+- Large extra dimensions theory (12)
+- Dark matter hairs spreading out from Earth
+- Nonlinear isotope shift in Yb could be evidence of a dark boson
+- CNB detecter, PTOLEMY
+- AdS-CFT correspondence & holographic duality
+- Maps of the CMBR
+- Ground state of Higgs boson - charge, colour
+- Phase space
+- Search for mirror matter - could create 'portal' to mirror universe
+- Cosmic shear tomography - studying the structure of the Universe & testing flat ΛCDM
+- Noninflationary pocket universes
+- Search for microscopic black holes & collision-generated gravitons disappearing into higher dimensions at LHC (6)
+- Bubbles in spacetime (quantum foam)
+- Ground state of Higgs boson - stability
+- Brane cosmology (3)
+- Dark energy parameters
+- Anomaly in dark matter detector, XENON, could be due to solar axions
+- AdS spacetime instability proof (2)
+- Chronology protection conjecture
+- Bad ghosts
+- The universe as a quantum gravity condensate
+- Kerr spacetime & black holes (2)
+- Superluminal Travel with Naked Line Singularities
+- Dust giving pressue for universe expansion
+- Quintessence (2)
+- Ghost condensation
+- Axion coupling in the early Universe
+- Ground state of Higgs boson - matter, antimatter
+- Neutrinos determined where galaxies formed in the early Universe
+- Proof of dS spacetime stability
+- Time-varying speed of light
+- Eternal inflation leads to spacetime being filled with singularities
+- Largest 3D Map of the Universe Ever Created, eBOSS (22)
+- Unpredictable three-body problem with Planck length differences
+- Ground state of Higgs boson - particles (2)
+- Cosmic inflation
+- Penrose-Carter Diagrams
+- Axiogenesis - further work on Peccei-Quinn's Mexican Hat Potential
+- Branes
+- Dark photons
+- False vacuum decay could lead to immediate gravitational collapse of the universe
+- Quantum fluctuations could have lead to the formation of galaxies (2)
+- Graviton noise (3)
+- Modified Newtonian Dynamics - a cosmological theory without dark matter (2)
+- Holographic dark energy (3)
+- Simulating the structure of the Universe using warm dark matter
+- Dark matter & dark energy (2)
+- Superfluid vacuum theory
+- Dark Matter might be explained by stellar-mass clusters of primordial black holes
+- LQG with spin foam
+- String theory landscape (vacua) (4)
+- Self-interacting dark matter
+- Spacetime and gravity can emerge from entanglement
+- Long term fate of the Universe (2)
+- Cosmic strings - conical singularities
+- Universe as a hologram
+- Cosmic neutrino background
+- Odd new measurement of Hubble's constant
+- Warm dark matter & H0 inconsistencies
+- Phantom energy
+- ΛCDM parameters
+- Conformal infinity - intersections of constant time and constant space hyperbolae
+- Milky Way may be in low-density region of universe, which affects H0 measurements
+- Axion infall onto galaxies produces caustic rings in dark matter halo
+- Boltzmann brains (9)
+- Cosmic web (2)
+- The universe may have some sort of directionality - different value for fine structure constant
+- H0 tension is due to tension in CMB temperature
+- Huge quantum vacuum energy causing universe expansion
+- Tachyon condenation with D-branes
+- The habitable epoch of the early universe
+- Big Rip
+- De Sitter holography
+- Treating an electron as a naked singularity
+- Positronium in the late universe
+- Falsification & consciousness
+- An ekpyrotic universe (8)
+- Spacetime is built up of quantum entanglement
+- Inflation due to tachyons
+- Matrix Theory
+- Universe as a simulation
+- Using the Earth's crust to possibly detect dark matter
+- Big Bang produced by supermassive white whole explosion in a 5D vacuum
+- Space itself may be a complex mesh of points connected together by means of a simple rule that is iterated many times
+- Knot theory and quantum gravity
+- Octonions as a theory for the universe (5)
+- Baum-Frampton cyclic model (2)
+- Cosmic censorship hypothesis
+- No-boundary universe (5)
+- Axion BECs as dark matter
+- Upward-going cosmic-ray-like event could indicate existence of parallel universe travelling backwards in time (2)
+
+=====================================================================================================
+
+:: Black Holes #000000 ::
+- Theory of Gravitational Waves from a Black Hole Orbiting in a Wormhole Geometry
+- Soft Hair on black holes
+- Acoustic black holes
+- Tiny black hole
+- Tidal disruption event
+- Gravitational waves
+- If extremal black holes can decay, then gravity is the weakest force (weak gravity conjecture)
+- Hawking radiation
+- Extremal black holes have no entropy and exist in another dimension
+- Three SMBHs about to merge
+- Cloud fomation around AGNs
+- Orbiting SMBH crashes through even larger SMBH's accretion disk every twelve years
+- Fuzzballs (2)
+- IMBH candidate detected by Hubble
+- Black hole binary merger by third black hole, possibly ejecting third one afterwards (3)
+- Black holes in higher-dimensional gravity
+- Experimentally teleporting qubits through traversable entangled black hole wormholes (2)
+- Black hole explosions
+- Tidal disruption near miss - eternal slow mass degradation of star while orbiting black hole
+- Proof of black hole stability conjecture (2)
+- EHT M87 (6)
+- Blazars are astrophysical neutrino sources (2)
+- SMBH formation
+- Gas falling into black holes heats up & added pressure pushes it back out - explains why they're so bright
+- Wormhole conversion to time machine
+- The curious case of GW190814
+- The Destruction and Recreation of the X-Ray Corona in a AGN
+- All black holes have at least one light ring
+- Infinite rings of light around black holes, capturing images of the entire Universe
+- Observing a wormhole in the Milky Way
+- Stupendously Large Black Holes
+- Huge stellar black hole debate (6)
+- Black hole merger recoil could cause remnant to escape galaxy (5)
+- Observation of Hawking radiation using optical analogue
+- No-hair theroem
+- Colour of galaxy related to mass of central SMBH
+- Two candidate mergers of primordial black holes from the QCD epoch
+- Unruh effect
+- Big Bang & GRBs are white holes
+- The time reverse of a black hole in thermal equilibrium is again a black hole in thermal equilibrium
+- Information paradox solved
+- Black hole size limits - UMBH
+- A new Universe is in each black hole
+- Blanets (2)
+- Naked singularities (2)
+- Blandford–Znajek process - how quasars are powered
+- Black hole entropy in AdS-CFT
+- Quantum black holes
+- Infinite sequence of self-similar photon rings around black hole indictaing number of photon orbits could be used to calculate black hole mass
+- Early-universe SMBH formation & growth
+- Detection of grav waves from NSBH merger
+- Information might be prevented from ever falling into a black hole in the first place, by a firewall at the black hole’s event horizon
+- Recovering a qubit after it has fallen into a black hole
+- Optical electromagnetic counterpart to a (candidate) binary black hole merger
+- Schwarzschild metric
+- Closest black hole to Earth found in a triple system
+- Supermassive black hole highly redshifted & seemingly older than the Universe
+- Black holes acting as information mirrors
+- Black hole decay in higher dimensions
+- Black hole binaries usually have equal, and not random, masses
+- Traversable wormholes
+- The final parsec problem
+- Black hole information paradox
+- Extremal black hole decay depends on its entropy
+- Biggest black hole found at z=4 is most luminous quasar
+- Ultramassive black holes
+- Wormholes
+- Photons boomerang back to black hole, and reflect off inner disk
+- Schwarzschild precession
+- Quantum error correction is essential for maintaining the smoothness of spacetime at a wormhole's horizon
+- Observation of Hawking radiation using BEC analogue
+- Singularities of Kerr black holes (2)
+- Penrose superradiance (3)
+- Black hole evaporation (3)
+- Gravitationally Collapsed Objects of Very Low Mass
+- Quasar Tsunamis (6)
+- Peaceful passage through a rotating black hole
+- Black hole birthing stars
+- Entangled black holes as traversable wormholes
+- Event horizon shape of binary black hole
+
+=====================================================================================================
+
+:: Quantum Mechanics #e50000 ::
+- Easier gluon interactions by the amplituhedron
+- New experiment shows gravity isn't causing superposition collapse
+- Quantum molecules
+- Quantum jumps are not instantaneous, and stopping them mid-jump
+- Atomic entanglement
+- Quantum gravity & entanglement (3)
+- Casimir effect
+- Cherenkov radiation image doubling
+- Josephson Effect
+- Zeno effect
+- Entangling 15 trillion atoms
+- Light-accelerated supercurrents creating 'forbidden light'
+- Quantum phase battery
+- Quantum Go Machine
+- Testing quantum entanglement using high z quasars
+- Quantum scrambling (2)
+- Quantum principle of relativity
+- Ground-to-satellite quantum teleportation
+- Quantum shutters
+- Hebertsmithite is a strongly correlated spin liquid
+- Quantum memory teleportation
+- Ability to 'peek' at measurements without collapsing them
+- 1D quantum gas predictions
+- Anti-Zeno effect
+- Reversal of the arrow of time on IBM supercomputer
+- Quantum dot single photon source
+- Quantum steampunk engine
+- Time-reversal back to an unknown quantum state
+- Quantum eraser
+- Phonon transfer through vacuum
+- Anderson localization
+- Atomic microwave-to-optical signal conversion, could be used for supercomputer comms over optical fibers
+- Control of single-nucleus spin
+- Quantum Walks of a Phonon in Trapped Ions
+- Magnetic domain-wall surface tension
+- Topological phases measurement
+- Satellite-to-ground entanglement
+- Elitzur-Vaidman bomb-tester
+- Direct observation of a Hydrogen atom
+- Time crystal
+- LIGO directly observes contribution of quantum radiation pressure noise on their mirrors
+- Atom-laser system is analogous to an engine or fridge
+- Quantum vortices & turbulence (2)
+- Imaging entanglement
+- More photon information transferred
+- IFM proof based on Elitzur-Vaidman bomb-tester
+- String-net condensation & topological phases (2)
+- Coupling a mechanical oscillator and atomic spins using a laser loop
+- BEC produced on International Space Station
+- Quantum tunnelling
+- Rapidly rotating mirror creates photons
+- Measuring how long quantum tunnelling takes (2)
+- Butterfly effect doesn't exist in the quantum realm
+- Entanglement without interaction
+- Entangled sensor networks (2)
+- Planckian metals
+- Observation of Pauli Crystals
+- Quantum fluids
+- Superfluid helium quantum gyroscope
+- Quantum perpetual motion
+- Entanglement demonstration on board a CubeSat
+- Quantum Monte Carlo simulations for fermionic systems
+- Many-Body Dynamical Localization
+- Loophole-free Bell inequality violation
+- Quantum Monte Carlo simulations of solids
+
+=====================================================================================================
+
+:: Particle Physics #840000 ::
+- Baryon-antibaryon asymmetry needs to be one part in a billion for light elements to form minutes after Big Bang
+- Wolfenstein matter effect
+- Finding the structure of mysterious particle X(3872) (2)
+- Strong CP problem (2)
+- LQCD simulation on a computer
+- Potential Majorana particles in odd superconductor
+- Timescales of nuclear reactions
+- Excitonium (2)
+- Higgs interaction cascade tree gives rise to exponential decay in SM generation's masses
+- Anyons (3)
+- Baryon-antibaryon asymmetry should be of same order as lepton-antilepton asymmetry
+- Free proton is bigger than in nucleus
+- Muon-catalysed fusion
+- The KOTO kaon anomaly
+- Electrons are massless in graphene
+- LQCD
+- Tachyons before they didn't travel faster than c
+- Up-down quark matter
+- Molecular positronium
+- Evidence of Majorana particles on an island in a sea of gold
+- Cosmic muon time dilation
+- Photon-photon scattering
+- Hexaquark BEC as dark matter candidate
+- Observation of all-charm tetraquark
+- Electron-photon interactions
+- Measuring gravity using suspended atoms
+- One-dimensional bosons form Fermi sea
+- Quenched (no quark vacuum polarisation) lattice non-relativistic quantum chromodynamics
+- Pentaquark found to be baryon-meson mini-molecule
+- Potentially a new boson & fifth force (3)
+- Quark CP violation
+- Massless electrons gain mass when leaving graphene
+- Anti-particles are particles moving backwards in time
+- Metals with electron quasiparticles
+- Higgs discovery (2)
+- Baryogenesis through leptogenesis
+- Neutrino oscillations in matter via eigenvalues
+- Neutrino CP violation
+- Search for proton decay gives lower bound of 16 billion trillion trillion years for a proton's lifetime
+- Leptogenesis
+- New decay of kaon prompts neutrino-antineutrino to be bound particle
+- Wakefield acceleration of trapped electrons
+- Decays of positronium
+- Controlling the dimensionality of exciton-exciton annihilation
+- On-chip particle accelerator
+- T violation
+- Solving the proton radius puzzle
+- Neutrinoless double beta decay
+- Decay of an electron
+- Higgs boson probably doesn't decay into dark matter
+- Four top-quark production at LHC
+- Metastable positronium
+- Positrons are electrons moving backwards in time
+- Mass difference observed between particle-antiparticle identity oscillations
+- Triboson production at CMS
+
+=====================================================================================================
+
+:: Quantum Computing #014d4e ::
+- Shor's Algorithm
+- Majorana zero modes
+- Sequential photon-emitting electron-hole recombinations
+- Quantum teleportation of qubits in quantum dots (2)
+- Chip-to-chip quantum teleportation
+- Characterising quantum noise
+- Qubit register created using NV diamond defect
+- Hot qubits
+- Production of large qubit system
+- MIP = RE
+- Quantum computer verification protocol
+- Blind quantum computation
+- Stability of qubits
+- Using neural networks to autotune quantom dots into qubits
+- Qubit quantum dots
+- Optical cavity & Yb ion might allow quantum network construction
+- Quantum gate teleportation
+- Google's 53 qubit supreme quantum computer
+- Quantum error-correcting codes (2)
+- Entangling two optical fields mechanically for quantum information transfer between nodes
+- Oracle Separation of BQP and PH
+- Underwater quantum communication test in a tubulent tank
+- Quantum repeaters
+- New quantum error correction code techniques (2)
+- Creation of single-atom transistors
+
+=====================================================================================================
+
+:: Atomic #388004 ::
+- Pair density waves detected in high temperature cuprate superconductor
+- Neural network simulation of electrons in molecules - 'solving chemistry' (4)
+- Atomic fireworks
+- Method for calculation of faster, optimum superheavy nucleus production
+- Island of Stability
+- Ryderg states
+- Incredibly precise sphere used to calculate Avogadro constant
+- Nuclear shell model
+- Bose–Einstein condensation of quasiparticles by rapid cooling
+- Antihydrogen Ly-α transition
+- 'Coldest' reaction 'seen'
+- Supersolids (2)
+- Roaming insertion quantum interference with simple isotopolgous hydrogen reaction
+- Rydberg molecules
+- Rydberg atoms used as very sensitive antennae (3)
+- 126-dimensional electronic structure of benzene
+- Superfluids merge by corkscrew mechanism
+- BEC
+- Rydberg matter (3)
+- A nuclear periodic table
+- Quantum degenerate molecules (2)
+- Atomic clock
+- Rb BEC superfluid
+
+=====================================================================================================
+
+:: Spacecraft #536267 ::
+- Optimized Trajectories to the Nearest Stars Using Lightweight High-velocity Photon Sails
+- Skyhook (2)
+- Pulsar dyson sphere
+- DART mission will eject material towards Earth, later causing meteors
+- Caplan thruster
+- A mission to 'Oumuamua (2)
+- Shkadov thruster
+- Cycling interstellar spacecraft
+- Stanford Torus
+- Effects of the ISM on spacecraft used for interstellar travel
+- The Interplanetary Transport Network (2)
+- Warp drive
+- Sample collection from Ryugu
+- Lightsails (2)
+- The Andromeda Study, A Femto-Spacecraft Mission to Alpha Centauri
+- Double Asteroid Redirection Test (2)
+- White dwarf dyson sphere
+- The Halo Drive
+- Breakthrough Starshot plan for interstellar travel
+- Matrioshka Brains
+- The audacious plan that might have saved Columbia
+
+=====================================================================================================
+
+:: Materials #952e8f ::
+- Metallic hydrogen
+- HpNC
+- High-temperature nickelate superconductor (2)
+- Negative absolute temperatures
+- Non-cuttable material
+- The quest for understanding glass (8)
+- Material with two MPs
+- A crystal that's so random, it's ordered
+- Hexagonal FeS exhibits metal-insulator transitions at high temperatures
+- Water trimers
+- Cold welding
+- Laser-induced forward transfer of intact chalcogenide thin films
+- Skyrmions
+- Applying holographic duality to cuprate superconductors (2)
+- Og synthesis
+- Martian biolith
+- Viscous electron fluids
+- Creating a metal from scratch using solvated electrons and liquid ammonia
+
+=====================================================================================================
+
+:: Maths #f4320c ::
+- Brachistochrone
+- Proof that the Conway Knot is not a slice
+- The Banach-Tarski Paradox
+- Primes seem to avoid being followed by another prime with the same final digit, and are biased to their final digit
+- Finding a universality of shapes of clusters of randomly-assigned black or white colour to vertices on a randomly-triangulated surface
+- Schinzel-Zassenhaus proof - roots repulsion theory
+- Study of eigenvector-eigenvalue identity, found by research into neutrino oscillation
+- Inter-Universal Teichmüller Theory (abc Conjecture Proof) (4)
+- Proving the rectangular peg problem using Möbius strips (2)
+- Collatz Conjecture (2)
+- Sensitivity Conjecture (3)
+- The chromatic number of the plane is at least 5
+- Fermat's Last Theorem proof
+- Conway's Soldiers (2)
+- Diffraction of primes (3)
+- Langlands Bridge (5)
+
+=====================================================================================================
+
+:: Computing #06470c ::
+- Turing machines
+- Neural networks for object recognition in more than 2 dimensions (5)
+- Ethereum
+- Bitcoin
+- Rainbow tables
+- Constructing 3D space from 2D images
+- Google's ML program learns games & beats human masters (4)
+- Neural networks & deep learning (2)
+- A computational mind cannot recognize itself
+- Whole Brain Emulation
+- Factorisation of RSA number
+- Neural network evolution
+- Collision detector & avoidance chip inspired by a locust's brain
+- Optical random number generation
+- The Imitation Game
+
+=====================================================================================================
+
+:: Macro Physics #0504aa ::
+- Universal self-assembly
+- Orbiting noncoalesced drops
+- Quantum locking
+- Leidenfrost effect
+- Floating under a levitating liquid by inverted buoyancy
+- Taylor-Couette Flow
+- Prince Rupert's Drops
+- Inverse Leidenfrost effect
+- Noncoalescence of drops on a vibrating fluid
+- Potential solution to magnetic island growth in tokamak fusion reactors
+- Acoustic tweezers
+
+=====================================================================================================
+
+:: Optics #dbb40c ::
+- Hyperspectral imaging
+- Quantum imaging with undetected photons
+- Stopping light for 60s
+- Ten-trillion FPS camera
+- 5D Storage (4)
+- Observation of branched flow of light
+- Microwave laser
+- Photonic levitation
+- Fastest ever light pulse created
+- Frozen light
+- 44.2 terabits per second achieved over standard optical fibers
+
+=====================================================================================================
+
+
+~ END ~
