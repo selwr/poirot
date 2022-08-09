@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Archive Analysis Tool v2.1
+# Archysis v2.1
 # created by Sam Wallis-Riches, 2021
 
 '''

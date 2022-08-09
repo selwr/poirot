@@ -1,4 +1,4 @@
-# Archive Distribution Tool
+# Archysis v1.0
 # created by Sam Wallis-Riches, 2020
 
 import os
